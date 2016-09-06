@@ -1,5 +1,5 @@
 
-#include "my_fun.h"
+#include "my_lib.h"
 struct node *stack1=NULL,*stack2=NULL;
 int count=0;
 

@@ -1,13 +1,14 @@
-#include "my_fun.h"
+#include "my_lib.h"
 
 int front=-1;
 int rear=0;
 
-int* create(int n){
- int *x;
- x=(int*) malloc(n*sizeof(int));
- return x;
-}
+int* create(int n)
+	{
+		int *x;
+		x=(int*) malloc(n*sizeof(int));
+	 	return x;
+	}
 int* init (int n){
 	int *x,i ;
 	x=create(n);

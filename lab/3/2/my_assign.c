@@ -1,4 +1,9 @@
-#include "my_fun.h"
+/*****************
+Vaibhav Agarwal
+B15139
+Lab 3 Question 1
+******************/
+#include "my_lib.h"
 extern struct node  *stack1,*stack2;
 int main(){
 	int temp;
